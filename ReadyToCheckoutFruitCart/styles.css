@@ -1,0 +1,97 @@
+
+
+html, body {
+    margin:0;
+    height:100%;
+  }
+  
+  
+  
+  .basket-wrap {
+    margin: 0 auto;
+    width: 1220px;
+    background-color: rgb(203, 45, 21);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMjwynG7iL1yoBPs1kAYOu-3GIMQWJT_fwQ&usqp=CAU");
+    padding: 30px;
+    
+  }
+  
+  .basket-wrap .item {
+    border-bottom: 1px dashed rgb(206, 30, 30);
+    padding: 10px 0 10px;
+    width: 100%;
+  }
+  
+  .basket-wrap .item_description {
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+    width: 380px;
+    font-size: 60px;
+  }
+  
+  .img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-size: cover;
+  }
+  
+  .basket-wrap .item_QTY {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #037f03;
+    margin: 0 10px 0 10px;
+  }
+  
+  .basket-wrap .item_price {
+    float: right;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(240, 53, 11);
+  }
+  
+  .basket-wrap .item_price:after {
+    content: ' Rs';
+  }
+  
+  .basket-wrap .item_price:after {
+    content: '  Rs';
+    color: rgb(11, 0, 0);
+  }
+  
+  .basket-wrap .basket-options {
+    text-align: right;
+    padding-top: 40px;
+  }
+  
+  .basket-wrap .checkout_btn {
+    background-color: #037f03;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .basket-wrap .clear_btn {
+    border: none;
+    font-size: 14px;
+    color: rgba(50, 56, 50, 0.831);
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .basket-wrap .total {
+    float: left;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(23, 4, 4);
+    padding-top: 35px;
+  }
+  
+  .basket-wrap .total:after {
+    content: " Rs";
+  }
+  /*# sourceMappingURL=styles.css.map */
